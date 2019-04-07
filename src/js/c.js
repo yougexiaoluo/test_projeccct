@@ -1,0 +1,1 @@
+console.log('被C.html页面引入使用');
