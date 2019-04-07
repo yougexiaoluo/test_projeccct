@@ -10,10 +10,16 @@
 </head>
 
 <body>
-  <h1>首页</h1>
+  <h1 id="homePage">首页</h1>
+  <a href="https://raw.githubusercontent.com/yougexiaoluo/test_projeccct/master/src/pages/a.html">跳转</a>
+  <a href="./src/pages/a.html">跳转到a.html页面</a>
+  <a href="./src/pages/b.html">跳转到b.html页面</a>
 </body>
 <script>
-
+  // https://raw.githubusercontent.com/yougexiaoluo/test_projeccct/master/src/pages/a.html
+  homePage.onclick = function () {
+    window.location.href = 'https://raw.githubusercontent.com/yougexiaoluo/test_projeccct/master/src/pages/a.html';
+  }
 </script>
 
 </html>
